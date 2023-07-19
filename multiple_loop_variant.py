@@ -1,9 +1,23 @@
 """ To launch the program:
- - write in the terminal $ python3 main.py
- or
- - press right button on the file and press "Run 'main' row 58"
- or
- - click green arrow and press "Run 'main'"
+1. Clone the git repository to your device:
+    - move to the working directory you prefer to locate the files
+    - run in the terminal:
+        $ git clone git@github.com:norka2233/become_a_developer_test_task.git
+    - open  'become_a_developer_test_task' folder
+2. Run the program
+     - write in the terminal $ python3 multiple_loop_variant.py
+     or
+     - press right button on the file and press "Run 'multiple_loop_variant' row 58"
+     or
+     - click green arrow and press "Run 'multiple_loop_variant'"
+     - in the terminal you should see the values after function execution:
+         B
+         P
+         M
+         m
+         e
+         8
+
  """
 
 """----------STRINGS FOR TESTING----------"""
