@@ -57,7 +57,7 @@ def unique_all(text: str) -> str:
         """ returns only the first string from the list of the first unique symbols from every word """
         return unique_letters[0]
     """  first_letters => list of strings (every word) of the input text in case if the string is not empty,
-    # triggers inside function (first_unique) to get to the letters of the word """
+     triggers inside function (first_unique) to get to the letters of the word """
     first_letters = [first_unique(t) for t in text.split(' ') if t]
     return first_unique(first_letters)
 
