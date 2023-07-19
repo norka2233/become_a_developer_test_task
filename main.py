@@ -9,7 +9,7 @@ To launch the program:
 2. Run the program
      - write in the terminal $ python3 main.py
      or
-     - press right button on the file and press "Run 'main' row 58"
+     - press right button on the file and press "Run 'main' row 65"
      or
      - click green arrow and press "Run 'main'"
      - in the terminal you should see the values after function execution:

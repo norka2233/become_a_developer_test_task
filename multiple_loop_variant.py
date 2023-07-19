@@ -1,4 +1,6 @@
-""" To launch the program:
+""" This is another solution to the test task, optional variant.
+
+To launch the program:
 1. Clone the git repository to your device:
     - move to the working directory you prefer to locate the files
     - run in the terminal:
@@ -7,7 +9,7 @@
 2. Run the program
      - write in the terminal $ python3 multiple_loop_variant.py
      or
-     - press right button on the file and press "Run 'multiple_loop_variant' row 58"
+     - press right button on the file and press "Run 'multiple_loop_variant' row 74"
      or
      - click green arrow and press "Run 'multiple_loop_variant'"
      - in the terminal you should see the values after function execution:
