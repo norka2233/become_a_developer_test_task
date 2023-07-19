@@ -1,3 +1,12 @@
+""" To launch the program:
+ - write in the terminal $ python3 main.py
+ or
+ - press right button on the file and press "Run 'main' row 58"
+ or
+ - click green arrow and press "Run 'main'"
+ """
+
+"""----------STRINGS FOR TESTING----------"""
 str = "Bla bla" # => B
 str_1 = "Eleonora El Peso"  # => P
 str_2 = "Gerbils Mice King and Genkhis Khan" # => M
@@ -16,21 +25,33 @@ but when you do, it blows away your whole leg. (с) Bjarne Stroustrup
 """ # => e
 str_5 = "55587327fahv" # => 8
 
-
-def exclude_unique_symbol(str_3):
-    splited_str = str_3.split()
+"""----------SOLUTION WITH INSTRUCTIONS----------"""
+def exclude_unique_symbol(text: str) -> str:
+    """convert input text to the list"""
+    splited_str = text.split()
+    """variable for first unique symbols of every word"""
     first_symbols = []
+    """variable for first unique symbol of first_symbols variable"""
     first_unique = []
+    """loop through every word in the list"""
     for el in splited_str:
+        """loop through every letter in the word"""
         for e in el:
+            """find unique symbol"""
             if el.count(e) == 1:
+                """add this symbol to the list"""
                 first_symbols.append(e)
+                """as we need only the first unique symbol we can break the loop right after the symbol is found"""
                 break
-            else: break
+    """loop through the list of the first unique symbol of every word"""
     for symbol in first_symbols:
+        """check the first unique symbol"""
         if first_symbols.count(symbol) == 1:
+            """add this symbol to the list"""
             first_unique.append(symbol)
+            """as we need only the first one, the loop can be stopped"""
             break
+    """convert this first symbol to the string """
     return ''.join(first_unique)
 
 

@@ -1,12 +1,12 @@
 """ To launch the program:
  - write in the terminal $ python3 main.py
  or
- - press right button on the file and press "Run 'main'"
+ - press right button on the file and press "Run 'main' row 49"
  or
  - click green arrow and press "Run 'main'"
  """
 
-"""STRINGS FOR TESTING"""
+"""----------STRINGS FOR TESTING----------"""
 str = "Bla bla"
 str_1 = "Eleonora El Peso"  # => P
 str_2 = "Gerbils Mice King and Genkhis Khan" # => M
